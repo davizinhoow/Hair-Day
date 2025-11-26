@@ -1,0 +1,11 @@
+{
+  "name": "hair-day",
+  "description": "Aplicação web para agendamento de cortes de cabelo e barba.",
+  "author": "Davi Freitas",
+  "scripts": {
+    "server": "json-server --watch server.json --port 3333"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.21"
+  }
+}
