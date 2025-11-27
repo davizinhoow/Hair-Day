@@ -3,7 +3,7 @@
   "description": "Aplicação web para agendamento de cortes de cabelo e barba.",
   "author": "Davi Freitas",
   "scripts": {
-    "server": "json-server --watch server.json --port 3333",
+    "server": "json-server --watch server.json --port 3003",
     "build": "webpack",
     "dev": "webpack serve"
   },
