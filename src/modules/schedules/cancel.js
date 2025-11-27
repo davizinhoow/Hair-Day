@@ -11,8 +11,8 @@ periods.forEach((period) => {
 
         if(event.target.classList.contains('cancel-icon')){
             //obtem a li pai do elemento clicado
-            const item = event.target.closet('li')
-            const {id} = item.dataset
+            const item = event.target.closest('li')
+            const id = item.dataset.id
 
         
             //verifica que o id foi selecionado 
